@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Open URLs 0xShe</title>
+    <link rel="stylesheet" href="open.css" />
+  </head>
+  <body>
+    <h1>Open URLs</h1>
+	  <style>
+    body {
+      width: 500px;
+      height: 400px;
+    }
+  </style>
+    <label for="urls">网址：</label>
+    <br />
+    <textarea id="urls" rows="10" cols="50"></textarea>
+    <br />
+    <label for="limit">打开数量：</label>
+    <input type="number" id="limit" min="1" max="100" />
+    <br />
+    <button id="open">Go</button>
+    <script src="open.js"></script>
+  </body>
+</html>

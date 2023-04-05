@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Open URLs 0xShe",
+  "version": "1.0",
+  "description": "一款批量打开URL的插件 高效渗透 By:0xShe",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
